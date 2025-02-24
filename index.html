@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <form action="">
+        <h1>Number Base Converter</h1>
+        <label for="number">Number</label>
+        <input
+          type="number"
+          class="input"
+          name="number"
+          id="js-number"
+          placeholder="Enter a Number"
+        />
+        <label for="base">Base</label>
+        <input type="number" class="input" name="base" id="js-base" value="2" />
+        <input type="button" id="js-convert" value="Convert" class="btn" />
+        <p class="result" id="js-result"></p>
+      </form>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
